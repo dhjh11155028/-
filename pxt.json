@@ -1,5 +1,5 @@
 {
-    "name": "圖",
+    "name": "正反圖",
     "version": "0.0.1",
     "description": "",
     "dependencies": {
@@ -11,7 +11,9 @@
         "README.md",
         "assets.json",
         "tilemap.g.jres",
-        "tilemap.g.ts"
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
