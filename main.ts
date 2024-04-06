@@ -1,5 +1,9 @@
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    mySprite.setVelocity(50, 50)
+})
+let mySprite: Sprite = null
 scene.setBackgroundColor(1)
-let mySprite = sprites.create(img`
+mySprite = sprites.create(img`
     ................................................................
     ................................................................
     ................................................................
